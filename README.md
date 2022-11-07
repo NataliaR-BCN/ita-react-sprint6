@@ -1,1 +1,0 @@
-# ita-react-sprint6
