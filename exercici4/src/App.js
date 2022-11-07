@@ -6,7 +6,7 @@ import texts from './components/Escena/texts';
 
 function App() {
 
-   const [numEscena, setNumEscena] = useState(0); 
+  const [numEscena, setNumEscena] = useState(0); 
 
   const showEscena = texts.map(( text, index ) => <Escena key={ index } text={ text } isActivated={ index === numEscena } />);
 
